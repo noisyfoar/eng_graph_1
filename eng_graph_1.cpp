@@ -2,6 +2,7 @@
 #include <GL/glew.h>
 #include <GL/freeglut.h>
 
+
 GLuint VBO;
 
 struct Vector3f
@@ -62,7 +63,7 @@ int main(int argc, char** argv)
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA);
     glutInitWindowSize(1280, 720);
-    glutInitWindowPosition(960, 540);
+    glutInitWindowPosition(10, 10);
     glutCreateWindow("Lesson 3");
 
     InitializeGlutCallbacks();

@@ -129,6 +129,9 @@
   <ItemGroup>
     <ClCompile Include="eng_graph_1.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Salavat\Desktop\eng_graph\ogldev\tutorial03\math_3d.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
